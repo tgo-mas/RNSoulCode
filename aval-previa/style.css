@@ -134,3 +134,18 @@ article{
 #blog{
     display: flex;
 }
+
+/* Seção de contato */
+.contato{
+    background-color: #ddd;
+    padding: 30px;
+
+}
+
+.col-name{
+    width: 120px;
+}
+
+table {
+    margin-left: 30px;
+}
