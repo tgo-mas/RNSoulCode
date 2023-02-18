@@ -6,7 +6,7 @@ body{
 
 /* Navbar */
 header{
-    width: 100%;
+    width: calc(100% - 60px);
     display: flex;
     background-color: #aaa;
     margin: 0;
@@ -58,6 +58,23 @@ main{
     margin: 20px 0;
 }
 
+.cards-title{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px
+}
+
+.card-title img{
+    width: 75px;
+}
+
 /* Seção de produtos */
 .produtos{
     width: 100%;
@@ -104,3 +121,16 @@ main{
     background-color: #888;
 }
 
+/* Css article */
+article img{
+    width: 300px;
+}
+
+article{
+    padding: 75px;
+    text-align: justify;
+}
+
+#blog{
+    display: flex;
+}
