@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armonds Variedades</title>
+    <style>
+        th, td{
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header style="display: flex; flex-wrap: nowrap; width: 100%; justify-content: space-between;">
+        <h1 style="width: 400px; margin-left: 20px">
+            Armonds Variedades
+        </h1>
+        <nav style="width: 100%; align-items: center;">
+            <ul style="display: flex; justify-content: space-around; list-style-type: none;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Pedidos</a></li>                
+                <li><a href="#">Parceiros</a></li>
+                <li><a href="#">Vagas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <main style="background-color: antiquewhite; padding: 20px;" align="center">
+        <section>
+            <h1>Somos a loja do lar!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolor, molestiae atque alias a maiores, maxime ipsum et placeat.</p>
+        </section>
+        <section style="background-color: aliceblue; padding: 10px" align="center">
+            <h2>Nossos produtos</h2>
+            <table align="center">
+                <thead>
+                    <th></th>
+                    <th>Nome</th>
+                    <th>Marca</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Qtd. disp.</th>
+                </thead>
+                <tr>
+                    <td><img src="" alt=""></td>
+                    <td>Mixer</td>
+                    <td>Phillips</td>
+                    <td>Para fazer os melhores sucos e batidas!</td>
+                    <td>R$ 49,99</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td><img src="" alt=""></td>
+                    <td>Prancha de cabelo</td>
+                    <td>Phillips</td>
+                    <td>No calor ideal para não danificar suas madeixas!</td>
+                    <td>R$ 129,99</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td><img src="" alt=""></td>
+                    <td>Processador</td>
+                    <td>PlasticosCia</td>
+                    <td>Facilitando o dia a dia na cozinha!</td>
+                    <td>R$ 29,99</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td><img src="" alt=""></td>
+                    <td>Conjunto de lápis</td>
+                    <td>Faber Castell</td>
+                    <td>Trazendo qualidade profissional para seus desenhos!</td>
+                    <td>R$ 19,99</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td><img src="" alt=""></td>
+                    <td>Panela de Pressão</td>
+                    <td>Polishop</td>
+                    <td>Mais segurança e praticidade para sua cozinha</td>
+                    <td>R$ 249,99</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td colspan="5"><h4>Todos esses e muito mais na sua casa!</h4></td>
+                    <td><a href="#">Ver mais...</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section style="padding: 20px">
+            <fieldset align="start">
+                <legend>Deixe-nos seu comentário ou sugestão!</legend>
+                <form action="submit" width="400px">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="text-nome">Nome</label>
+                            </td>
+                            <td>
+                                <input type="text" name="text" id="text-nome">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="text-tel">Telefone</label>
+                            </td>
+                            <td>
+                                <input type="tel" name="text" id="text-tel">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="text-email">Email</label>
+                            </td>
+                            <td>
+                                <input type="email" name="text" id="text-email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="text-comment">Comentário</label>
+                            </td>
+                            <td>
+                                <textarea name="text-comment" id="text-comment" cols="30" rows="10"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" required>
+                            </td>
+                            <td>
+                                <label for="check-rights">Concordo com os termos de uso do site.</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="reset">Limpar campos</button> <button type="submit">Enviar</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer align="center">
+        <p> &copy; 2023, Armonds Variedades. Todos os direitos reservados. </p>
+    </footer>
+
+</body>
+
+</html>
