@@ -26,7 +26,7 @@ let soma = 0
 
 demandas.forEach((el) => {
     let totalCli = el * precoFinal
-    console.log(`O cliente ${demandas.indexOf(el)} deverá pagar R$ ${totalCli}`)
+    console.log(`O cliente ${demandas.indexOf(el) + 1} deverá pagar R$ ${totalCli}`)
     totais.push(totalCli)
     soma += totalCli
 })
