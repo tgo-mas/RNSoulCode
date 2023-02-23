@@ -9,3 +9,5 @@ function calc(a, b, c){
 }
 
 calc(2, 3, 4)
+
+// funcao(param) -> processamento(dados) -> resultado(return)
