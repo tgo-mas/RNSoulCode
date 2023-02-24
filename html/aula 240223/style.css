@@ -1,0 +1,12 @@
+
+div img{ 
+    width: 200px;
+    height: 200px;
+}
+
+/* O 'div img' é mais específico do que apenas 'img', portanto, tem prioridade. */
+
+img{
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+article{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    text-align: justify;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid lightgreen;
+}
+
+p{
+    margin: 20px 30px;
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
+}
+
+
