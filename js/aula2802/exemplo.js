@@ -83,3 +83,26 @@ let dadosPor100 = dados.map((dado) => {
 
 // console.log(dadosPor100);
 
+// Filter = Aplica um teste em cada elemento e quem passar
+// faz parte do novo array
+let temps = [29, 5, 10, -4, 15, -20]; // Celsius
+let tempsPositivas = temps.filter((temp) => {
+    if (temp > 0) {
+        return true; // t pode fazer parte do novo array
+    } else {
+        return false; // t não fará parte do novo array
+    }
+});
+
+let tempsPositivas2 = temps.filter((temp) => temp > 0);
+
+console.log(temps);
+console.log(tempsPositivas);
+console.log(tempsPositivas2);
+
+// for (let t of temps) {
+//   if (t > 0) {
+//     tempsPositivas.push(t);
+//   }
+// }
+// console.log(tempsPositivas);
