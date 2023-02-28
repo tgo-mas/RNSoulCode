@@ -115,3 +115,4 @@ function exercicio1() {
   // Exercício IX: Crie uma função que mostra os elementos do array
   // em ordem invertida. [1, 2, 3] -> [3, 2, 1]
   
+
