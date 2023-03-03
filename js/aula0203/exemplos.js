@@ -11,7 +11,12 @@ let pessoa = {
         cep: "59350-000",
         rua: "Nilton Ginae",
         numero: 45
-    }
+    },
+    formacao: [
+        {nome: 'Ensino médio', periodo: '2016-2020'},
+        {nome: 'Faculdade', periodo: '2020-2024'}
+    ],
+    
 }
 
 console.log(pessoa)
