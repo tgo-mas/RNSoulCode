@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 185px;
+}
+
+.form-box{
+    text-align: center;
+    padding: 5px;
+}
+
+.form-control{
+    width: 300px !important;
+    margin: 0 auto !important;
+}

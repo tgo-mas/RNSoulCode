@@ -16,7 +16,7 @@ let conta = {
         }else
             console.log("Saldo insuficiente!")
     },
-    deposito (valor){
+    deposito(valor){
         this.saldo += valor
         console.log(`Depositado ${valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}, novo saldo: ${this.saldo.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
     }
@@ -46,9 +46,9 @@ let produto = {
     },
     comprar(total){
         this.quantidade -= total;
-    } 
+    }
 }
 
-produto.apresentacao()
-produto.comprar(4)
-produto.apresentacao()
+// produto.apresentacao()
+// produto.comprar(4)
+// produto.apresentacao()
