@@ -7,7 +7,7 @@ export function Menu() {
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand>Navbar</Navbar.Brand>
-                    <Nav className="mb-auto">
+                    <Nav className="me-auto">
                         <Button variant="link">
                             <Link to="/">Home</Link>
                         </Button>

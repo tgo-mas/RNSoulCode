@@ -9,6 +9,7 @@ import { Login } from './pages/Login/Login';
 import { NotFound } from "./pages/NotFound/NotFound"
 import { Root } from "./pages/Root/Root"
 import { Section } from './components/Section/Section';
+import { EditaUsuario } from './pages/EditaUsuario/EditaUsuario';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <Route path='/blog' element={<Blog />} />
             <Route path='/contato' element={<Contato />} />
             <Route path='/usuarios' element={<Usuarios />} />
+            <Route path='/usuario/edit/:id' element={<EditaUsuario/>}></Route>
             <Route path='/login' element={<Login />} />
             <Route path='*' element={<NotFound />} />
           </Route>
