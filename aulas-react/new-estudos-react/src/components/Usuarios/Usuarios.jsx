@@ -5,14 +5,15 @@ export function Usuarios() {
     return (
         <div>
             <h1>Usuários</h1>
-            <Table>
+            <Table bordered hover>
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
                         <th>Idade</th>
                         <th>Email</th>
-                        <th>Ações</th>
+                        <th>Editar</th>
+                        <th>Perfil</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -24,6 +25,7 @@ export function Usuarios() {
                                 <td>{usuario.idade}</td>
                                 <td>{usuario.email}</td>
                                 <td><a href={`/usuario/edit/${usuario.id}`}>Editar</a></td>
+                                <td><a href={`/usuario/perfil/${usuario.id}`}>Ver perfil</a></td>
                             </tr>
                         )
                     })}

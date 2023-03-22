@@ -1,27 +1,28 @@
 import { Link } from "react-router-dom"
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import "./Menu.css"
 
 export function Menu() {
     return (
         <div className="menu">
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand>Navbar</Navbar.Brand>
-                    <Nav className="me-auto">
+                    <Navbar.Brand>ReactStudies V2.0</Navbar.Brand>
+                    <Nav className="ms-auto">
                         <Button variant="link">
-                            <Link to="/">Home</Link>
+                            <Link className="link" to="/">Home</Link>
                         </Button>
                         <Button variant="link">
-                            <Link to="/blog">Blog</Link>
+                            <Link className="link" to="/blog">Blog</Link>
                         </Button>
                         <Button variant="link">
-                            <Link to="/contato">Contato</Link>
+                            <Link className="link" to="/contato">Contato</Link>
                         </Button>
                         <Button variant="link">
-                            <Link to="/usuarios">Usuários</Link>
+                            <Link className="link" to="/usuarios">Usuários</Link>
                         </Button>
                         <Button variant="link">
-                            <Link to="/login">Login</Link>
+                            <Link  to="/login">Login</Link>
                         </Button>
                     </Nav>
                 </Container>

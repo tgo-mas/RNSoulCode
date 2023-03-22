@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { Home } from './pages/Home/Home';
-import { Menu } from "./components/Menu/Menu";
 import { Blog } from './pages/Blog/Blog';
 import { Contato } from './pages/Contato/Contato';
 import { Usuarios } from './components/Usuarios/Usuarios';
@@ -10,6 +9,7 @@ import { NotFound } from "./pages/NotFound/NotFound"
 import { Root } from "./pages/Root/Root"
 import { Section } from './components/Section/Section';
 import { EditaUsuario } from './pages/EditaUsuario/EditaUsuario';
+import { PerfilUsuario } from './pages/PerfilUsuario/PerfilUsuario';
 
 function App() {
   return (
@@ -40,7 +40,8 @@ function App() {
             <Route path='/blog' element={<Blog />} />
             <Route path='/contato' element={<Contato />} />
             <Route path='/usuarios' element={<Usuarios />} />
-            <Route path='/usuario/edit/:id' element={<EditaUsuario/>}></Route>
+            <Route path='/usuario/edit/:id' element={<EditaUsuario />} />
+            <Route path='/usuario/perfil/:id' element={<PerfilUsuario />} />
             <Route path='/login' element={<Login />} />
             <Route path='*' element={<NotFound />} />
           </Route>
