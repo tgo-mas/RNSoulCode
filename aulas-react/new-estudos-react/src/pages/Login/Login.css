@@ -1,0 +1,12 @@
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card{
+    width: 450px !important;
+    padding: 25px !important;
+    text-align: start !important;
+}
