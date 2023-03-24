@@ -10,3 +10,8 @@
     padding: 25px !important;
     text-align: start !important;
 }
+
+.toast{
+    bottom: 20px;
+    right: 20px;
+}
