@@ -1,0 +1,16 @@
+SELECT * FROM pessoas;
+SELECT * FROM pessoas WHERE idade > 30;
+SELECT * FROM pessoas WHERE idade < 25 OR sexo = 'F';
+SELECT * FROM pessoas WHERE idade BETWEEN 20 AND 40;
+SELECT * FROM pessoas WHERE nome LIKE('Jo%');
+SELECT * FROM pessoas WHERE YEAR(data_nascimento) = 2000;
+SELECT * FROM pessoas WHERE nome LIKE("%Silva%");
+SELECT * FROM pessoas WHERE data_nascimento < "1990-01-01";
+SELECT * FROM pessoas WHERE nome LIKE("%a");
+SELECT * FROM pessoas WHERE NOT idade BETWEEN 25 AND 35;
+SELECT * FROM pessoas WHERE nome LIKE("%João%") OR nome LIKE("%Maria%");
+SELECT * FROM pessoas WHERE data_nascimento BETWEEN "1980-01-01" AND "1990-12-31";
+SELECT * FROM pessoas WHERE nome LIKE("L%") AND idade > 25;
+SELECT * FROM pessoas WHERE idade IN(20,21,22,23,24,25);
+SELECT * FROM pessoas WHERE nome LIKE("%a") AND idade BETWEEN 25 AND 35;
+SELECT * FROM pessoas WHERE (nome LIKE("G%") OR nome LIKE("R%")) AND sexo = 'M';
